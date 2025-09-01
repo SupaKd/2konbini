@@ -27,7 +27,7 @@ function Header() {
       </Link>
 
       <Link to="/" onClick={closeMenu} className="logo_mobile">
-        <img src="/logoo.webp" alt="Logo" />
+        <img src="/lo.png" alt="Logo" />
       </Link>
       <Link to="/" onClick={closeMenu} className="logo_desktop">
         <img src="/lo.png" alt="Logo" />
