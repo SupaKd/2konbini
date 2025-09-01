@@ -1,0 +1,167 @@
+/* src/layout/Header.scss */
+/* Mobile-first, menu slide-down, mêmes classes que ton JSX */
+
+.header {
+  position: absolute;
+  inset: 0 0 auto 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: transparent;
+  transition: background-color 0.3s ease, backdrop-filter 0.3s ease,
+    box-shadow 0.3s ease;
+
+  &.scrolled {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+
+  /* Burger */
+  .burger {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    font-size: 1.6rem;
+    color: #111;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+    &.rotate {
+      transform: rotate(90deg);
+    }
+
+    &:focus-visible {
+      outline: 2px solid #111;
+      outline-offset: 2px;
+      border-radius: 6px;
+    }
+  }
+
+  /* Logos */
+  .logo_mobile {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    img {
+      width: 48px;
+      height: auto;
+      display: block;
+    }
+  }
+
+  .logo_desktop {
+    display: none;
+  }
+
+  /* Nav */
+  .header__nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    flex-direction: column;
+    align-items: stretch;
+    background: transparent;
+
+    transform: translateY(-100%);
+    opacity: 0;
+    pointer-events: none;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+
+    &.show {
+      transform: translateY(0);
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    a {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.8rem 1.2rem;
+      font-weight: 600;
+      font-size: 1.2rem;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 999px; /* effet bulle */
+      transition: transform 0.2s ease, background 0.3s ease;
+
+      &:hover {
+        transform: translateY(-3px) scale(1.05);
+      }
+
+      &:active {
+        transform: scale(0.95);
+      }
+    }
+
+    /* Bouton bulle rouge */
+    img {
+      width: 50px;
+      height: auto;
+      border-radius: 99px;
+    }
+
+    /* Bouton bulle bleu */
+    .btn--blue {
+      background: #053198;
+    }
+
+    /* Bouton bulle vert */
+    .btn--green {
+      background: #F6A60A;
+    }
+  }
+}
+
+/* ≥ 768px : desktop */
+@media (min-width: 768px) {
+  .header {
+    padding: 1rem 2rem;
+
+    .burger {
+      display: none;
+    }
+
+    .logo_mobile {
+      display: none;
+    }
+
+    .logo_desktop {
+      display: inline-flex;
+      position: static;
+      transform: none;
+      img {
+        width: 100px;
+        height: auto;
+      }
+    }
+
+    .header__nav {
+      position: static;
+      transform: none;
+      opacity: 1;
+      pointer-events: auto;
+      flex-direction: row;
+      align-items: center;
+      gap: 1rem;
+      padding: 0;
+      background: transparent;
+
+      a {
+        padding: 0.8rem 1.5rem;
+      }
+    }
+  }
+}

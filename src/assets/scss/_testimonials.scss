@@ -1,0 +1,45 @@
+.testimonials {
+    padding: 3rem 1rem;
+    background: #000000;
+    text-align: center;
+  }
+  
+  .testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+    color: #fff;
+  }
+  
+  .testimonials__swiper { padding-bottom: 2rem; }
+  
+  .testi__card {
+    background: #E4013B;
+    border: 2px solid #111;
+    border-radius: 10px;
+    padding: 1rem;
+    height: 100%;
+    display: grid;
+    gap: .75rem;
+    align-content: start;
+    box-shadow: 4px 4px 0 rgba(0,0,0,.7);
+  }
+  
+  .stars {
+    color: #f6b400; /* or #111 if tu préfères */
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+  }
+  
+  .testi__text {
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  .testi__name {
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  .swiper-pagination-bullet { background: rgba(0,0,0,.3); }
+  .swiper-pagination-bullet-active { background: #111; }
+  
