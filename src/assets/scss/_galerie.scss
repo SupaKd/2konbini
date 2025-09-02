@@ -5,7 +5,7 @@
     text-align: center;
   
     &__title {
-      font-size: 2rem;
+      font-size: 4rem;
       margin-bottom: 2rem;
     }
   
@@ -34,7 +34,7 @@
       }
   
       &:hover .galerie__overlay {
-        background: rgba(0, 0, 0, 0.6);
+        background: rgba(0, 0, 0, 0.1);
       }
     }
   
@@ -57,7 +57,7 @@
     }
   
     &__name {
-      font-size: 1.3rem;
+      font-size: 2rem;
       font-weight: bold;
     }
   }

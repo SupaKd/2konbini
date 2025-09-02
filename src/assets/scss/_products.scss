@@ -61,7 +61,7 @@
     }
 
     &:hover .product__overlay {
-      background: rgba(0, 0, 0, 0.4);
+      background: rgba(0, 0, 0, 0.1);
     }
   }
 
@@ -78,7 +78,7 @@
   &__overlay {
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.5);
     transition: background 0.3s ease;
     z-index: 2;
   }
@@ -112,5 +112,21 @@
       background: #fff;
       color: #111;
     }
+  }
+}
+
+.voir {
+  background: #E4013B;
+  color: #fff;
+  padding: 1rem 1rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  margin-top: 1rem;
+
+  &:hover {
+    background: #fff;
+    color: #111;
   }
 }

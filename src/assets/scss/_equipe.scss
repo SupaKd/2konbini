@@ -7,7 +7,7 @@
     margin-bottom: 2rem;
 
     h2 {
-      font-size: 2rem;
+      font-size: 4rem;
       color:#fff;
     }
     p {
@@ -57,13 +57,14 @@
 
   &__name {
     font-size: 1.5rem;
-    font-weight: 700;
-    color:#E83234;
+    font-weight: 900;
+    color:#111;
+    margin-bottom: 0.25rem;
   }
 
   &__role {
     color: #000000;
-    font-weight: 800;
+    font-weight: 200;
     margin-top: 0.25rem;
   }
 }

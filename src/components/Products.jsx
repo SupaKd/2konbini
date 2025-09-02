@@ -64,6 +64,9 @@ function Products() {
           </article>
         ))}
       </div>
+      <div>
+        <button className="voir">Voir plus</button>
+      </div>
     </section>
   );
 }

@@ -13,8 +13,8 @@ function Home() {
         < Hero />
         < MarqueeNeon />
         < Presentation />
-        < Events />
         < Galerie />
+        < Events />
         < Products />
         < Equipe />
         < Testimonials />

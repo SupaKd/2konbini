@@ -14,7 +14,7 @@ const galerieData = [
   },
   {
     id: 3,
-    title: "Espace pour s’asseoir",
+    title: "Espace immersife",
     image: "/d.jpeg",
   },
   {
