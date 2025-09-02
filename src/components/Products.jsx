@@ -6,15 +6,21 @@ const CATEGORIES = [
   { id: "snacks", name: "Snacks" },
   { id: "boissons", name: "Boissons" },
   { id: "bentos", name: "Bentos" },
+  { id: "goodies", name: "Goodies" },
 ];
 
 const DATA = [
-  { id: 1, name: "Pocky Fraise", price: 2.5, category: "snacks", image: "/ramune.webp" },
-  { id: 2, name: "Chips Wasabi", price: 3.0, category: "snacks", image: "ramune.webp" },
+  { id: 1, name: "Pocky Fraise", price: 2.5, category: "snacks", image: "/pocky.jpeg" },
+  { id: 2, name: "Chips Wasabi", price: 3.0, category: "snacks", image: "chips.jpeg" },
   { id: 3, name: "Ramune Soda", price: 2.0, category: "boissons", image: "ramune.webp" },
-  { id: 4, name: "Thé Vert Matcha", price: 2.2, category: "boissons", image: "ramune.webp" },
-  { id: 5, name: "Bento Poulet", price: 8.5, category: "bentos", image: "ramune.webp" },
-  { id: 6, name: "Bento Saumon", price: 9.0, category: "bentos", image: "ramune.webp" },
+  { id: 4, name: "Fanta Grape", price: 2.2, category: "boissons", image: "fanta.jpeg" },
+  { id: 5, name: "Bento Poulet", price: 8.5, category: "bentos", image: "poulet.jpeg" },
+  { id: 6, name: "San Goku", price: 9.0, category: "goodies", image: "goku.jpeg" },
+  { id: 7, name: "Bento boeuf", price: 9.0, category: "bentos", image: "boeuf.jpeg" },
+  { id: 8, name: "Banh mi", price: 9.0, category: "bentos", image: "banh.jpeg" },
+  { id: 9, name: "Fanta ", price: 9.0, category: "boissons", image: "fanta1.jpeg" },
+  { id: 10, name: "Naruto", price: 9.0, category: "goodies", image: "naruto.jpeg" },
+
 ];
 
 function Products() {

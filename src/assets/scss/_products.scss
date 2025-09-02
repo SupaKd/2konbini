@@ -61,7 +61,7 @@
     }
 
     &:hover .product__overlay {
-      background: rgba(0, 0, 0, 0.6);
+      background: rgba(0, 0, 0, 0.4);
     }
   }
 
@@ -78,7 +78,7 @@
   &__overlay {
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.4);
     transition: background 0.3s ease;
     z-index: 2;
   }
