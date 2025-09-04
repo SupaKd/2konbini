@@ -2,7 +2,11 @@
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBarsStaggered, faXmark } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBarsStaggered,
+  faXmark,
+  faShoppingCart, // icône panier
+} from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,8 +16,6 @@ function Header() {
     setIsOpen(false);
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
-
- 
 
   return (
     <header className={`header  ? "scrolled" : ""}`}>
@@ -40,12 +42,18 @@ function Header() {
         <NavLink to="/" className="btn btn--red" onClick={closeMenu}>
           <img src="/uber.png" alt="" />
         </NavLink>
+         {/* Bouton panier */}
+         <NavLink to="/panier" className="btn btn--cart" onClick={closeMenu}>
+          <FontAwesomeIcon icon={faShoppingCart} /> 
+        </NavLink>
         <NavLink to="/" className="btn btn--blue" onClick={closeMenu}>
           Click & collect
         </NavLink>
         <NavLink to="/" className="btn btn--green" onClick={closeMenu}>
           Evenements
         </NavLink>
+
+       
       </nav>
     </header>
   );
