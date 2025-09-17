@@ -25,7 +25,7 @@ const TEAM = [
   return (
     <section className="equipe" aria-labelledby="equipe-title">
       <div className="equipe__header">
-        <h2 id="equipe-title">Notre équipe</h2>
+        <h2 id="equipe-title" className="equipeh1">Notre équipe</h2>
         <p>Des passionnés qui font vivre le konbini au quotidien.</p>
       </div>
 

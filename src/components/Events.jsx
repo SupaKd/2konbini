@@ -8,21 +8,15 @@ function Events() {
   const events = [
     {
       id: 1,
-      image: "/ben.webp",
+      image: "/quiz.jpeg",
       title: "Atelier Bento",
       desc: "Participez à un atelier unique pour apprendre à préparer votre propre bento japonais.",
     },
     {
       id: 2,
-      image: "/ramune.webp",
+      image: "/ramune2.jpeg",
       title: "Dégustation de Ramune",
       desc: "Découvrez toutes les saveurs de la célèbre limonade japonaise Ramune.",
-    },
-    {
-      id: 3,
-      image: "/culture.webp",
-      title: "Soirée Culture Manga",
-      desc: "Une soirée spéciale autour des mangas, avec quizz et projections.",
     },
   ];
 
@@ -52,22 +46,12 @@ function Events() {
         <div className="events__content">
           <h2>Nos Événements</h2>
           <p>
-            Venez vivre des expériences uniques dans notre konbini. Au-delà d’un
-            simple lieu de vente, nous souhaitons créer un véritable espace de
-            rencontre et de partage autour de la culture japonaise. Nous
-            organisons régulièrement des ateliers participatifs, où vous pouvez
-            apprendre à préparer des bentos, découvrir l’art du thé ou encore
-            vous initier à la calligraphie japonaise. Nos séances de dégustation
-            vous permettent de goûter à une sélection exclusive de snacks,
-            boissons et spécialités venues directement du Japon, avec des
-            explications sur leur origine et leur histoire. Pour aller plus
-            loin, nous proposons aussi des soirées culturelles : projections de
-            films, découvertes musicales, discussions autour des traditions et
-            tendances modernes du Japon. Chaque événement est pensé pour
-            rassembler notre communauté et offrir un moment convivial qui allie
-            gastronomie, culture et découverte. Rejoignez-nous et plongez dans
-            une expérience immersive où chaque visite devient un voyage au cœur
-            du Japon.
+            Participez à nos animations exclusives ! Venez tester vos
+            connaissances avec nos jeux quiz, tentez votre chance lors de
+            tirages au sort pour remporter de nombreux lots, et découvrez de
+            nouvelles saveurs grâce à nos ateliers de dégustation. Un moment
+            convivial à partager, où plaisir et surprises sont toujours au
+            rendez-vous.
           </p>
           <button className="events__btn">Voir le programme</button>
         </div>

@@ -10,16 +10,23 @@ const CATEGORIES = [
 ];
 
 const DATA = [
-  { id: 1, name: "Pocky Fraise", price: 2.5, category: "snacks", image: "/pocky.jpeg" },
-  { id: 2, name: "Chips Wasabi", price: 3.0, category: "snacks", image: "chips.jpeg" },
-  { id: 3, name: "Ramune Soda", price: 2.0, category: "boissons", image: "ramune.webp" },
-  { id: 4, name: "Fanta Grape", price: 2.2, category: "boissons", image: "fanta.jpeg" },
-  { id: 5, name: "Bento Poulet", price: 8.5, category: "bentos", image: "poulet.jpeg" },
-  { id: 6, name: "San Goku", price: 9.0, category: "goodies", image: "goku.jpeg" },
-  { id: 7, name: "Bento boeuf", price: 9.0, category: "bentos", image: "boeuf.jpeg" },
-  { id: 8, name: "Banh mi", price: 9.0, category: "bentos", image: "banh.jpeg" },
-  { id: 9, name: "Fanta ", price: 9.0, category: "boissons", image: "fanta1.jpeg" },
-  { id: 10, name: "Naruto", price: 9.0, category: "goodies", image: "naruto.jpeg" },
+  { id: 1, name: "Banh mi Classic", price: 8.5, category: "bentos", image: "nature.jpeg" },
+  { id: 2, name: "Banh mi Boeuf", price: 9.0, category: "bentos", image: "banh.jpeg" },
+  { id: 3, name: "Banh mi Poulet", price: 9.0, category: "bentos", image: "banhpoulet.jpeg" },
+  { id: 4, name: "Café glacé", price: 5.0, category: "boissons", image: "cafe.webp" },
+  { id: 5, name: "Soupe Miso maison", price: 3.0, category: "boissons", image: "miso.jpeg" },
+  { id: 14, name: "Nom Pao", price: 3.0, category: "bentos", image: "pao.jpeg" },
+  { id: 6, name: "Kit Kat", price: 2.5, category: "snacks", image: "/kitkat.jpeg" },
+  { id: 7, name: "Pocky Fraise", price: 2.5, category: "snacks", image: "/pocky.jpeg" },
+  { id: 8, name: "Chips Wasabi", price: 3.0, category: "snacks", image: "chips.jpeg" },
+  { id: 9, name: "Ramune Soda", price: 2.0, category: "boissons", image: "ramune.webp" },
+  { id: 10, name: "Fanta Grape", price: 2.2, category: "boissons", image: "fanta.jpeg" },
+  { id: 11, name: "San Goku", price: 14.0, category: "goodies", image: "goku.jpeg" },
+  { id: 13, name: "Naruto", price: 14.0, category: "goodies", image: "naruto.jpeg" },
+  { id: 15, name: "Oreo", price: 3.0, category: "snacks", image: "oreo.jpeg" },
+  { id: 16, name: "Cup Noodle", price: 3.0, category: "bentos", image: "cuo.jpeg" },
+
+
 
 ];
 

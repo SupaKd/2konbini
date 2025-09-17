@@ -1,11 +1,10 @@
-// src/layout/Header.jsx
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBarsStaggered,
   faXmark,
-  faShoppingCart, // icône panier
+  faShoppingCart,
 } from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
@@ -29,10 +28,10 @@ function Header() {
       </Link>
 
       <Link to="/" onClick={closeMenu} className="logo_mobile">
-        <img src="/lo.png" alt="Logo" />
+        <img src="/logo2025.png" alt="Logo" />
       </Link>
       <Link to="/" onClick={closeMenu} className="logo_desktop">
-        <img src="/lo.png" alt="Logo" />
+        <img src="/logo2025.png" alt="Logo" />
       </Link>
 
       <nav
@@ -42,9 +41,8 @@ function Header() {
         <NavLink to="/" className="btn btn--red" onClick={closeMenu}>
           <img src="/uber.png" alt="" />
         </NavLink>
-         {/* Bouton panier */}
-         <NavLink to="/panier" className="btn btn--cart" onClick={closeMenu}>
-          <FontAwesomeIcon icon={faShoppingCart} /> 
+        <NavLink to="/panier" className="btn btn--cart" onClick={closeMenu}>
+          <FontAwesomeIcon icon={faShoppingCart} />
         </NavLink>
         <NavLink to="/" className="btn btn--blue" onClick={closeMenu}>
           Click & collect
@@ -52,8 +50,6 @@ function Header() {
         <NavLink to="/" className="btn btn--green" onClick={closeMenu}>
           Evenements
         </NavLink>
-
-       
       </nav>
     </header>
   );

@@ -6,12 +6,14 @@ import Equipe from "../components/Equipe";
 import Testimonials from "../components/Testimonials";
 import MarqueeNeon from "../components/MarqueeNeon";
 import Galerie from "../components/Galerie";
+import ImageCarousel from "../components/ImageCarousel";
 function Home() {
     return (
       <main className="home">
 
         < Hero />
         < MarqueeNeon />
+        < ImageCarousel />
         < Presentation />
         < Galerie />
         < Events />
