@@ -9,7 +9,7 @@ function MarqueeNeon() {
           Découvrez l’authenticité japonaise ✦ Snacks ✦ Boissons ✦ Bentos ✦
         </span>
         <span className="neonblue-text">
-          Découvrez notre Konbini Concept 
+          Découvrez notre Konbini Concept Asiatique
         </span>
       </Marquee>
     </div>

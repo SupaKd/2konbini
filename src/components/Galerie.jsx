@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 const galerieData = [
   {
     id: 1,
-    title: "Coin Jeux Arcade",
-    image: "/b.jpeg",
+    title: "Plats préparés",
+    image: "/platpre.png",
   },
   {
     id: 2,
@@ -14,13 +14,14 @@ const galerieData = [
   },
   {
     id: 3,
-    title: "Espace immersife",
-    image: "/d.jpeg",
+    title: "Goodies",
+    image: "/funko.jpeg",
   },
+  
   {
     id: 4,
-    title: "Plats préparés",
-    image: "/a.jpeg",
+    title: "Espace immersife",
+    image: "/d.jpeg",
   },
 ];
 

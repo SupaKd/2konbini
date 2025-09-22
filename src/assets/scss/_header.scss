@@ -28,7 +28,7 @@
     width: 44px;
     height: 44px;
     font-size: 1.6rem;
-    color: #111;
+    color: #fff;
     border: none;
     background: transparent;
     cursor: pointer;
@@ -51,9 +51,12 @@
     left: 50%;
     transform: translateX(-50%);
     img {
-      width: 48px;
+      width: 100px;
       height: auto;
       display: block;
+      margin-top:5rem;
+      background-color: #f9f9f9;
+      border-radius: 30px;
     }
   }
 

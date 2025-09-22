@@ -3,20 +3,20 @@
 const TEAM = [
   {
     id: 1,
-    name: "Kevin Khek",
-    role: "Gérant",
+    name: "Kevin",
+    role: "Co-gérant",
     photo: "/a1.jpeg",
   },
   {
     id: 2,
-    name: "Chichi",
+    name: "Bea",
     role: "Associé",
     photo: "/a2.jpeg",
   },
   {
     id: 3,
     name: "Soso",
-    role: "Associé",
+    role: "Co-gérant",
     photo: "/a3.jpeg",
   },
 ];
