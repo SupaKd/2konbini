@@ -7,6 +7,7 @@ import Testimonials from "../components/Testimonials";
 import MarqueeNeon from "../components/MarqueeNeon";
 import Galerie from "../components/Galerie";
 import ImageCarousel from "../components/ImageCarousel";
+import Eco from "../components/Eco";
 function Home() {
     return (
       <main className="home">
@@ -18,6 +19,7 @@ function Home() {
         < Galerie />
         < Events />
         < Products />
+        < Eco />
         < Equipe />
         < Testimonials />
       </main>
