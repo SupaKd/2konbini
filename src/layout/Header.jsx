@@ -31,7 +31,7 @@ function Header() {
         <img src="/logo2025.png" alt="Logo" />
       </Link>
       <Link to="/" onClick={closeMenu} className="logo_desktop">
-        <img src="/logo2025.png" alt="Logo" />
+        <img src="/logok.png" alt="Logo" />
       </Link>
 
       <nav

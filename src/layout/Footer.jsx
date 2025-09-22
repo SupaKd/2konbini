@@ -12,7 +12,7 @@ function Footer() {
           </div>
           <div className="informations">
             <h2>Nos horaires</h2>
-            <p><strong>Lundi au Vendredi :</strong> 9h00 - 21h00</p><p><strong>Samedi :</strong> 9h00 - 21h00</p>
+            <p><strong>Lundi au Vendredi :</strong> 10h00 - 22h00</p><p><strong>Samedi :</strong> 10h00 - 22h00</p>
           </div>
 
           <nav className="nav">
