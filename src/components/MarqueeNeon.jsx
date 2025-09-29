@@ -6,7 +6,7 @@ function MarqueeNeon() {
     <div className="marquee">
       <Marquee speed={60} gradient={false}>
         <span className="neonred-text">
-          Découvrez l’authenticité japonaise ✦ Snacks ✦ Boissons ✦ Bentos ✦
+          Découvrez l’authenticité japonaise ✦ Snacks ✦ Boissons ✦ Sandwitchs ✦
         </span>
         <span className="neonblue-text">
           Découvrez notre Konbini Concept Asiatique

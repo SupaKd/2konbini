@@ -1,35 +1,30 @@
 .carousel {
+  width: 100%;
   overflow: hidden;
-  width: 100%;
-  background-color: #000;
 
-}
+  .carousel__track {
+    display: flex;
+    gap: 1rem;
+    margin:1rem;
 
-.carousel__track {
-  display: flex;
-  gap: 1rem;
-  background-color: #000;
-}
+    .carousel__item {
+      flex: 0 0 auto;
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+        object-fit: cover;
+      }
+    }
+  }
 
-.carousel__item {
-  flex: 0 0 auto;
-  width: 100%; /* mobile: une image pleine largeur */
-  background-color: #000;
-
-}
-
-.carousel__item img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 8px;
-  background-color: #000;
-
-}
-
-/* desktop */
-@media (min-width: 1024px) {
-  .carousel__item {
-    width: 25%; /* 4 images visibles en row */
+  // Desktop : 2 images fixes en grille
+  @media (min-width: 1024px) {
+    .carousel__track {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+      transform: none !important; // désactive l'animation framer-motion
+    }
   }
 }

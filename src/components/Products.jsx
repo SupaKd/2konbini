@@ -67,15 +67,10 @@ function Products() {
             <div className="product__content">
               <h3 className="product__name">{p.name}</h3>
               <p className="product__price">{p.price.toFixed(2)} €</p>
-              <button className="product__btn" type="button" aria-label={`Ajouter ${p.name} au panier`}>
-                Ajouter au panier
-              </button>
+              
             </div>
           </article>
         ))}
-      </div>
-      <div>
-        <button className="voir">Voir plus</button>
       </div>
     </section>
   );

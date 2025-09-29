@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBarsStaggered,
   faXmark,
-  faShoppingCart,
 } from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
@@ -40,9 +39,6 @@ function Header() {
       >
         <NavLink to="/" className="btn btn--red" onClick={closeMenu}>
           <img src="/uber.png" alt="" />
-        </NavLink>
-        <NavLink to="/" className="btn btn--cart" onClick={closeMenu}>
-          <FontAwesomeIcon icon={faShoppingCart} />
         </NavLink>
         <NavLink to="/" className="btn btn--blue" onClick={closeMenu}>
           Click & collect
