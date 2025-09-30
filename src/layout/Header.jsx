@@ -27,10 +27,10 @@ function Header() {
       </Link>
 
       <Link to="/" onClick={closeMenu} className="logo_mobile">
-        <img src="/logo2025.png" alt="Logo" />
+        <img src="/logoo.png" alt="Logo" />
       </Link>
       <Link to="/" onClick={closeMenu} className="logo_desktop">
-        <img src="/logok.png" alt="Logo" />
+        <img src="/logoo.png" alt="Logo" />
       </Link>
 
       <nav

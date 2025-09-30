@@ -5,18 +5,18 @@ const CATEGORIES = [
   { id: "all", name: "Tout" },
   { id: "snacks", name: "Snacks" },
   { id: "boissons", name: "Boissons" },
-  { id: "bentos", name: "Bentos" },
+  { id: "food", name: "Food" },
   { id: "goodies", name: "Goodies" },
 ];
 
 const DATA = [
-  { id: 1, name: "Banh mi Konbini", price: 9.5, category: "bentos", image: "banhkonbini.jpeg" },
-  { id: 2, name: "Banh mi Classic", price: 8.5, category: "bentos", image: "nature.jpeg" },
-  { id: 3, name: "Banh mi Boeuf", price: 9.0, category: "bentos", image: "banh.jpeg" },
-  { id: 4, name: "Banh mi Poulet", price: 9.0, category: "bentos", image: "banhpoulet.jpeg" },
-  { id: 5, name: "Corn dog", price: 5.0, category: "bentos", image: "corn.jpeg" },
-  { id: 6, name: "Nom Pao", price: 3.0, category: "bentos", image: "pao.jpeg" },
-  { id: 7, name: "Soupe Miso maison", price: 3.0, category: "bentos", image: "miso.jpeg" },
+  { id: 1, name: "Banh mi Konbini", price: 9.5, category: "food", image: "banhkonbini.jpeg" },
+  { id: 2, name: "Banh mi Classic", price: 8.5, category: "food", image: "nature.jpeg" },
+  { id: 3, name: "Banh mi Boeuf", price: 9.0, category: "food", image: "banh.jpeg" },
+  { id: 4, name: "Banh mi Poulet", price: 9.0, category: "food", image: "banhpoulet.jpeg" },
+  { id: 5, name: "Corn dog", price: 5.0, category: "food", image: "corn.jpeg" },
+  { id: 6, name: "Nom Pao", price: 3.0, category: "food", image: "pao.jpeg" },
+  { id: 7, name: "Soupe Miso maison", price: 3.0, category: "food", image: "miso.jpeg" },
   { id: 8, name: "Café glacé", price: 5.0, category: "boissons", image: "cafe.webp" },
   { id: 9, name: "Bubble glacé", price: 5.0, category: "boissons", image: "bubble.jpeg" },
   { id: 10, name: "Kit Kat", price: 2.5, category: "snacks", image: "/kitkat.jpeg" },
@@ -27,7 +27,11 @@ const DATA = [
   { id: 15, name: "San Goku", price: 14.0, category: "goodies", image: "goku.jpeg" },
   { id: 16, name: "Naruto", price: 14.0, category: "goodies", image: "naruto.jpeg" },
   { id: 17, name: "Oreo", price: 3.0, category: "snacks", image: "oreo.jpeg" },
-  { id: 18, name: "Cup Noodle", price: 3.0, category: "bentos", image: "cuo.jpeg" },
+  { id: 18, name: "Cup Noodle", price: 3.0, category: "food", image: "cuo.jpeg" },
+  { id: 19, name: "Peluche Pokemon", price: 13.0, category: "goodies", image: "pokemon.jpeg" },
+  { id: 20, name: "Figurine One piece", price: 8.0, category: "goodies", image: "one.jpeg" },
+
+
 
 
 
