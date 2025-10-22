@@ -2,12 +2,10 @@
 
 .eco-section {
     padding: 6rem 1.5rem;
-    background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
     border-radius: 1rem;
     max-width: 900px;
     margin: 0 auto;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-    font-family: "Noto Sans JP", sans-serif;
+    background-color: #000;
   
     &__inner {
       display: flex;
@@ -16,7 +14,7 @@
     }
   
     &__title {
-      font-size: 2rem;
+      font-size: 3.5rem;
       font-weight: 700;
       text-align: center;
       color: #f5f5f5;
@@ -29,13 +27,13 @@
       display: block;
       width: 60px;
       height: 4px;
-      background: #b22222; /* rouge japonais */
+      background: #31572c; /* rouge japonais */
       margin: 0.75rem auto 0;
       border-radius: 2px;
     }
   
     &__lead {
-      font-size: 1.125rem;
+      font-size: 1.6rem;
       text-align: center;
       color: #dcdcdc;
       max-width: 600px;
@@ -51,12 +49,12 @@
       gap: 1rem;
   
       li {
-        background: #111;
+        background: #31572c;
         padding: 1rem 1.25rem;
         border-radius: 0.75rem;
         border: 1px solid #333;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
-        font-size: 1rem;
+        font-size: 1.3rem;
         line-height: 1.6;
         color: #e6e6e6;
         position: relative;
@@ -65,7 +63,7 @@
   
       li::before {
         content: "◈";
-        color: #b22222;
+        color: #ffcc33;
         margin-right: 0.5rem;
       }
   

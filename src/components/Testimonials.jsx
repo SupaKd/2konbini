@@ -47,6 +47,7 @@ function Testimonials() {
           </SwiperSlide>
         ))}
       </Swiper>
+      <img src="/2.jpeg" alt="" />
     </section>
   );
 }

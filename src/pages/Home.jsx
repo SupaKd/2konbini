@@ -6,7 +6,6 @@ import Equipe from "../components/Equipe";
 import Testimonials from "../components/Testimonials";
 import MarqueeNeon from "../components/MarqueeNeon";
 import Galerie from "../components/Galerie";
-import ImageCarousel from "../components/ImageCarousel";
 import Eco from "../components/Eco";
 function Home() {
     return (
@@ -14,9 +13,9 @@ function Home() {
 
         < Hero />
         < MarqueeNeon />
-        < ImageCarousel />
         < Presentation />
         < Galerie />
+        < MarqueeNeon />
         < Events />
         < Products />
         < Eco />
