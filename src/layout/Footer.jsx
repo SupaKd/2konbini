@@ -8,7 +8,7 @@ function Footer() {
         <div className="footer__top">
 
           <div>
-            <img src="/logo2025.png" alt="logo" />
+            <img src="/onagaa.png" alt="logo" />
           </div>
           <div className="informations">
             <h2>Nos horaires</h2>

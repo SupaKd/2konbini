@@ -1,5 +1,5 @@
 .products {
-  margin: 3rem 0;
+  margin: 1rem 0;
   padding: 2rem 1rem;
   text-align: center;
 
@@ -27,22 +27,23 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 0.6rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
 
   &__category {
     padding: 1rem;
-    font-size: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
     border: 1px solid #fff;
     border-radius: 0.5rem;
-    background: transparent;
-    color:#fff;
+    background: #fff;
+    color:#111;
     cursor: pointer;
     transition: 0.3s;
     &.active,
     &:hover {
-      background: #111;
-      color: #F5A50C;
+      background: #E4013B;
+      color: #fff;
     }
     @media screen and (min-width: 768px) {
       font-size: 1.2rem;

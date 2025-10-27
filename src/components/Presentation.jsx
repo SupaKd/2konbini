@@ -1,12 +1,10 @@
 import { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 
-const IMAGES = ["/vitrine2onbini.png", "/inte.png", "/inte2.png"]; // 🔁 Ajoute ici tes images
+const IMAGES = ["/vitrine2onbini.png", "/inte.png", "/inte2.png"];
 
 function Presentation() {
   const [index, setIndex] = useState(0);
 
-  // ⏱️ Changement d’image toutes les 4 secondes
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prev) => (prev + 1) % IMAGES.length);
@@ -17,36 +15,31 @@ function Presentation() {
   return (
     <section className="presentation">
       <div className="presentation__container">
-        {/* Texte à gauche */}
-        <div className="presentation__content">
-          <h2>
-            Bienvenue dans notre <span className="konbini">Konbini</span>
-          </h2>
+        {/* Texte */}
+        <div className="presentation__text">
+          <h1>
+            Bienvenue dans notre <span className="highlight">Konbini</span>
+          </h1>
           <p>
-            Venez découvrir nos produits asiatiques authentiques et laissez-vous inspirer
-            par leurs saveurs uniques.
+            Découvrez des produits asiatiques authentiques dans un espace moderne et
+            inspirant. Goûtez à l’harmonie entre tradition et innovation.
           </p>
-          <button className="presentation__btn">Découvrir nos produits</button>
+          <button className="btn-primary">Découvrir nos produits</button>
         </div>
 
-        {/* Slider à droite */}
+        {/* Slider */}
         <div className="presentation__slider">
-          <div className="slider__wrapper">
-            <AnimatePresence mode="wait">
-              <motion.img
-                key={IMAGES[index]}
-                src={IMAGES[index]}
+          <div className="slider__images">
+            {IMAGES.map((src, i) => (
+              <img
+                key={i}
+                src={src}
                 alt="Konbini"
-                initial={{ opacity: 0, x: 50 }}
-                animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: -50 }}
-                transition={{ duration: 0.8, ease: "easeOut" }}
-                className="slider__image"
+                className={`slider__image ${i === index ? "active" : ""}`}
               />
-            </AnimatePresence>
+            ))}
           </div>
 
-          {/* Petits points indicateurs */}
           <div className="slider__dots">
             {IMAGES.map((_, i) => (
               <button

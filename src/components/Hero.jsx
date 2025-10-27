@@ -5,7 +5,7 @@ function Hero() {
   return (
     <section className="hero" aria-label="Image d'accueil du konbini">
       <img
-        src="/hero5.png"
+        src="/Onaga.png"
         alt="Vitrine du konbini"
         className="hero__image"
       />

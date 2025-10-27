@@ -74,22 +74,23 @@ function Products() {
           value={searchTerm}
           onChange={e => setSearchTerm(e.target.value)}
           className="products__input"
-        />
+          />
       </div>
 
       <div className="products__categories" role="tablist" aria-label="Catégories">
         {CATEGORIES.map(cat => (
           <button
-            key={cat.id}
-            role="tab"
-            aria-selected={activeCategory === cat.id}
-            className={`products__category ${activeCategory === cat.id ? "active" : ""}`}
-            onClick={() => handleCategoryChange(cat.id)}
+          key={cat.id}
+          role="tab"
+          aria-selected={activeCategory === cat.id}
+          className={`products__category ${activeCategory === cat.id ? "active" : ""}`}
+          onClick={() => handleCategoryChange(cat.id)}
           >
             {cat.name}
           </button>
         ))}
       </div>
+        
 
       <motion.div layout className="products__grid">
         <AnimatePresence>
